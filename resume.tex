@@ -1,0 +1,204 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Manthra Natarajan} \\ \vspace{1pt}
+    \small 214-931-6797 $|$ \href{mailto:x@x.com}{\underline{manthra.natarajan108@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/manthra-natarajan-423311232/}{\underline{LinkedIn}} $|$
+    \href{https://github.com/manthranatarajan}{\underline{GitHub}} \\
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {The University of Texas at Dallas}{\textbf{Aug. 2023 -- May 2026}}
+      {Bachelor of Science in Computer Science, GPA: 3.7, AES Scholar}{Richardson, TX}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{ExpressifAI} $|$ \emph{Python, OpenCV, PyTorch, google-Gemini API}}{Feb 2025 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed a webcam application to detect facial emotions and actions using {\textbf{DenseNet-161}} and SlowFast-r50}
+            \resumeItem{Integrated a semantic generation pipeline using {\textbf{Gemini API}} to translate detections into human descriptions}
+            \resumeItem{Implemented post-session analysis that summarizes all emotions and actions into digestable semantic report}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+      {\textbf{\href{https://github.com/manthranatarajan/hackutd_goldmansachs}{\underline{FinanceFlow}}} $|$ \emph{JS, nezt-auth, Next.js, NodeJS, Pinata, ReactJS, shadcn/ui, TS}}{Nov 2024}
+          \resumeItemListStart
+            \resumeItem{Built a financial dashboard with {\textbf{React}} and TypeScript, using {\textbf{Pinata}} for secure data storage}
+            \resumeItem{Displayed real-time trending stock patterns and integrated a chatbot using {\textbf{OpenAI}} and {\textbf{shadcn/ui}}}
+            \resumeItem{Implemented a feature that embeds articles on fintech and added a {\textbf{next-auth}} system to enhance reliability}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+      {\textbf{\href{https://github.com/manthranatarajan/HackReason2025}{\underline{GuardAI}}} $|$ \emph{Python, JS, React, CSS, Prolog, C, PowerShell}}{Jan 2025}
+          \resumeItemListStart
+            \resumeItem{Developed a message analysis system utilizing {\textbf{NLP}} to detect harmful messages, enhancing safety}
+            \resumeItem{Implemented {\textbf{sCASP}} to perform non-monotonic reasoning to detect harmful text, leveraging
+            {\textbf{Prolog-based}} constraint logic programming to infer implicit threats and toxicity detection}
+            \resumeItem{Practiced modular architecture with separate backend and frontend components, increasing scaleability}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+      {\textbf{\href{https://github.com/manthranatarajan/UTD-HackFin-Fall-2024---AKPsi-Challenge}{\underline{FratTracker}}} $|$ \emph{Express.js, google-Gemini API, MongoDB, NodeJS, ReactJS, TS}}{Nov 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a budgeting planner using React and {\textbf{TypeScript}}, streamlining operations for a fraternity}
+            \resumeItem{Automated backend workflows with {\textbf{NodeJS}} APIs, enhancing transaction speed and accuracy}
+            \resumeItem{Integrated a budget health score and generated a readable pie chart using Google Gemini API}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Dr. A-Eye} $|$ \emph{CNN, Flask, JavaScript, Python}}{Aug 2023 -- Dec 2023}
+          \resumeItemListStart
+            \resumeItem{Collaborated to develop a {\textbf{CNN}} model for detecting the stage of diabetic retinopathy, aiding in early diagnosis}
+            \resumeItem{Integrated the model into a {\textbf{Flask}} web interface, supporting doctors in fast paced clinical settings}
+            \resumeItem{Presemted the model to a panel of judges, receiving positive feedback for its potential impact on patient care}
+          \resumeItemListEnd       
+
+    \resumeSubHeadingListEnd
+
+%
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    % \resumeSubheading
+    %   {Incoming Software Developer Intern}{May 2025}
+    %   {CVS Health}{Hybrid}
+    % \resumeSubheading
+    %   {Incoming Software Developer Intern}{June 2025 — August 2025}
+    %   {Citigroup}{Irving, TX}
+
+    \resumeSubheading
+      {Undergraduate Teaching Assistant}{Dec 2024 — Present}
+      {\href{https://www.codepath.org/}{\underline{CodePath}}}{Remote}
+      \resumeItemListStart
+        \resumeItem{Guided groups of 5-6 students through solving LeetCode challenges and DSA with Python and Java}
+        \resumeItem{Assisted students 4hrs/week with Technical Interview Prep for beginners during my office hours}
+        \resumeItem{Collaborated closely with CodePath staff to support and improve the student learning experience}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineering Intern}{Mar 2022 — Dec 2022}
+      {\href{https://brains4drones.com/solutions/}{\underline{Brains4Drones (Startup)}}}{Plano, TX}
+      \resumeItemListStart
+        \resumeItem{Developed an application SeeMore using OpenCV with Python for video/image data processing}
+        \resumeItem{Spearheaded a Python script to detect corrupted and/or empty files in pre-labeled drone images}
+        \resumeItem{Parcitipated in tabling events in Ohio to demo the application to a prospective clients}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Lead Instructor}{Oct 2023 — March 2025}
+      {iCode}{Plano, TX}
+      \resumeItemListStart
+        \resumeItem{Mentored students on the basics of Java programming, OOP, python, and Arduino}
+        \resumeItem{Managed classes of 16 students, handled summer camps, and increased enrollment by 50\%}
+        \resumeItem{Communicated with my director about grading and classroom issues}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C, C++, MySQL, JavaScript, TypeScript, HTML, CSS, Kotlin, Assembly, Bash} \\
+     \textbf{Frameworks}{: Node.js, Flask, MongoDB, Pinata, Material-UI, .NET, Next.js. Junit} \\
+     \textbf{Developer Tools}{: Git, Docker, Google Collab, VS Code, Eclipse, MobaXTerm, Figma, Jira, Autodesk Inventor} \\
+     \textbf{Libraries}{: Pandas, NumPy, Matplotlib, sci-kit-learn, OpenCV, TensorFlow, PyTorch, shadcn}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
