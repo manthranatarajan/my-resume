@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.2)  26 OCT 2025 13:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.2)  12 NOV 2025 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -394,7 +394,7 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  10797 strings out of 474486
  172799 string characters out of 5743755
- 1962542 words of memory out of 5000000
+ 1959542 words of memory out of 5000000
  32955 multiletter control sequences out of 15000+600000
  563661 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -407,9 +407,9 @@ ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/manth/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/manth/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/manth/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 119277 bytes).
+Output written on resume.pdf (1 page, 117172 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 72 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

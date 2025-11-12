@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1761503742.4069 "resume.tex" "resume.pdf" "resume" 1761503743.29028 0
+["pdflatex"] 1762981881.01255 "resume.tex" "resume.pdf" "resume" 1762981882.03841 0
   "C:/Users/manth/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1759385436 80937 91001db6d4ae332437b4b739862cda02 ""
   "C:/Users/manth/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1759385191 24225046 3b5805d0b0bd89b4667f1db17d54cf27 ""
   "C:/Users/manth/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -83,9 +83,9 @@
   "C:/Users/manth/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/manth/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1700599895 7500 db31c3d04f8bc9010e47a5efbbace9ff ""
   "C:/Users/manth/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "resume.aux" 1761503743 673 a5b103462ee4c5d5200e195fba0a5b13 "pdflatex"
-  "resume.out" 1761503743 390 78777251306b8fffe28e9b1870a8b7ec "pdflatex"
-  "resume.tex" 1761503740 11682 10472bcb9b6444c283d8feb94062012f ""
+  "resume.aux" 1762981881 673 a5b103462ee4c5d5200e195fba0a5b13 "pdflatex"
+  "resume.out" 1762981881 390 78777251306b8fffe28e9b1870a8b7ec "pdflatex"
+  "resume.tex" 1762981880 12713 749233afab40048961b4760a3ba52d86 ""
   (generated)
   "resume.aux"
   "resume.log"
